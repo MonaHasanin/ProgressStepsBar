@@ -3,31 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Progress</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Progress Steps Bar by Mona Galal</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/256/11471/11471285.png" type="image/x-icon">
-
 </head>
+
 <body>
-
-    <div class="container">
-        <div class="steps">
-            <span class="circle active">1</span>
-            <span class="circle">2</span>
-            <span class="circle">3</span>
-            <span class="circle">4</span>
-
-            <div class="progress-bar">
-                <span class="indicator"></span>
-            </div>
-        </div>
-
-        <div class="buttons">
-        <button class="prev" disabled>Prev</button>
-        <button class="next">Next</button>
-    </div>
-    </div>
     
-    <script src="main.js" defer></script>
+
+    <dl>
+        <dt>
+        <h1>Progress Steps Bar by Mona Galal</h1>
+
+    </dt>
+
+    <dt>
+    <div id="name">       
+
+        <div class="container">
+              <div class="progress-container">
+                <div class="progress" id="progress"></div>
+                <div class="circle active"><img src="https://cdn-icons-png.flaticon.com/256/11471/11471285.png" alt="magic" height="70px" width="70px"></div>
+                <div class="circle"><img src="https://cdn-icons-png.flaticon.com/256/11471/11471291.png" alt="magic" height="70px" width="70px"></div>
+                <div class="circle"><img src="https://cdn-icons-png.flaticon.com/256/11471/11471293.png" alt="magic" height="70px" width="70px"></div>
+                <div class="circle"><img src="https://cdn-icons-png.flaticon.com/256/11471/11471292.png" alt="magic" height="70px" width="70px"></div>
+              </div>
+              <button class="btn" id="prev" disabled>Prev</button>
+              <button class="btn" id="next">Next</button>
+            </div>
+        </dt>
+    </dl>
+    <script src="main.js"></script>
 </body>
 </html>
