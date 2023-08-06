@@ -39,7 +39,7 @@ dt, h1{
 
 .progress-container::before {
     content: ""; /* Mandatory with ::before */
-    background-color: purple;
+    background-color: rgb(245, 143, 245);
     position: absolute;
     top: 50%;
     left: 0;
